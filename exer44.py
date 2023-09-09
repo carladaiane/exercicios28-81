@@ -21,4 +21,6 @@ logaritmo = m.log(num) / m.log(base)
 
 print(f'\nO logaritmo do número digitado é {logaritmo}')
 
+print(f'\nO Logaritmo de {num} na base {base} é {logaritmo:.2f}')
+
 print(f'\n')

@@ -16,7 +16,6 @@ imprima "\nmedia ponderada: ", mp;
 imprima "\n";
 fi mprog """
 
-
 num1= int(input('Digite o primeiro número:'))
 num2= int(input('Digite o segundó número:'))
 num3= int(input('Digite o terceiro número:'))
