@@ -1,40 +1,14 @@
-""" algoritmo 40
-Entrar com dois numeros inteiros e imprimir a seguinte saída:
-dividendo
-divisor:
-quociente:
-resto
-prog leal3
-int quoc, rest, vali, va12;
-imprima "\nentre com o dividendo:
-leia vali;
-imprima "\nentre com divisor.-
-leia val2,
-quoc <- vali div val2,
-rest <- vali % va12;
-imprima "\n\n\n",
-imprima "\ndividendo ", vali,
-imprima "\ndivisor ", va12,
-imprima "\nquociente ", quoc,
-imprima "\nresto ", rest,
-imprima "\n",
-fimprog  """
+val1 = int(input('\n Entre com o dividendo:'))
 
+val2 = int(input('\n Entre com divisor: '))
 
-num1 = int(input('Digite o primeiro número:'))
+quoc= val1//val2
+rest= val1%val2
 
-num2 = int(input('Digite o segundo número:'))
-
-
-dividendo= num1
-divisor= num2
-quociente= num1//num2
-resto= num1%num2
-
-print(f'\nO dividendo é {dividendo}')
-print(f'\nO divisor é {divisor}')
-print(f'\nO quociente é {quociente}')
-print(f'\nO resto é {resto}')
+print(f'\nO dividendo é {val1}')
+print(f'\nO divisor é {val2}')
+print(f'\nO quociente é {quoc}')
+print(f'\nO resto é {rest}')
 
 
 print(f'\n')

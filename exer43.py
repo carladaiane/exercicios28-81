@@ -1,20 +1,9 @@
 import math as m
 
-""" algoritmo 43
-Entrar com um número e imprimir o logaritmo desse número na base 10.
-prog leal6
-42 1 real num, logaritmo;
-imprima "\n entre com o logaritmando:
-leia num;
-logaritmo <- log(num) / log(10);
-imprima "\nlogaritmo: ", logaritmo;
-imprima "\n";
-fimprog """
-
-num = float(input('Digite um número:'))
+num = float(input('\n Entre com o logaritmando:'))
 
 logaritmo = m.log(num) / m.log(10)
 
-print(f'\nO logaritmo desse número é {logaritmo}')
+print(f'\n Logaritmo: {logaritmo}')
 
 print(f'\n')

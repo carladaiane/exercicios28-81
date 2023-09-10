@@ -1,6 +1,6 @@
 import math as m
 
-angulo = float(input('\n Digite um número:'))
+angulo = float(input('\n Digite um angulo em graus:'))
 rang = (angulo* 3.14) / 180
 
 print(f'\nSeno: {m.sin(rang)}')

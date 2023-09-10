@@ -1,15 +1,5 @@
-""" prog lea5
-int num;
-imprima "\nentre com um numero:
-leia num;
-imprima " \nnumero : ", num;
-imprima " \n " ;
-fimprog  """
+num = input('\n Entre com um numero:')
 
-
-
-entrada = input('Digite um numero:')
-
-print(f"\n numero : {entrada}")
+print(f"\n numero : {num}")
 
 print(f"\n")

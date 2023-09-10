@@ -1,23 +1,6 @@
-""" Ler nome, endereço e telefone e imprimi-los.
-prog lea8
-string nome, endereco, telefone;
-imprima "\nentre com nome:
-leia nome;
-imprima "\nentre com endereco:
-leia endereco;
-imprima "\nentre com telefone:
-leia telefone;
-imprima "\n\n\n";
-imprima "\nNome : ",nome;
-imprima "\nEndereco: ",endereco;
-imprima \nTelefone: ",telefone;
-imprima "\n";
-fimprog  """
-
-nome = input("Digite seu nome:")
-ender = input("Digite seu endereço:")
-tel = input("Digite seu telefone:")
-
+nome = input(f"\n Entre com nome:")
+endereco = input(f"\n Entre com endereço:")
+telefone = input(f"\n Entre com telefone:")
 
 print("\n\n\n")
 
