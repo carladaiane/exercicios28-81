@@ -14,8 +14,19 @@ II, area
 imprima "\n"; 
 fimprog """
 
-perimetro = 
-area = 
-raio = 
+raio = float(input('Digite raio: '))
+perimetro = 2* 3.14 * raio
+area = 3.14 *raio ** 2; 
+
+print( f"\nperimetro : {perimetro:.2f} ")
+
+print( f"\narea : {area:.2f} ")
+
+print(f'\n')
+
+
+
+
+
 
 

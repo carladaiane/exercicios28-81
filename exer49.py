@@ -13,7 +13,7 @@ int n;
 imprima 11 \nentre com nome: 
 leia nome; 
 imprima "\ntodo nome: " , nome; 
-imprima "\nprimeiro caractere: , strprim(nome); 
+imprima "\nprimeiro caractere: ", strprim(nome); 
 imprima "\nultinio caractere: ", strult(nome); 
 imprima " \nprimeiro ao terceiro caractere: ", strnprim(nome,3); 
 imprima "\nquarto caractere: ", strelem(nome,3); 
@@ -26,6 +26,19 @@ fimprog
 """
 
 nome = input('\n Entre com nome: ')
+
+print(f"\ntodo nome: {nome}" )
+print(f"\nprimeiro caractere: {nome[0]}")
+print(f'\nultimo caractere: {nome[-1]}')
+print(f"\nprimeiro ao terceiro caractere: {nome[0:3]}" )
+print(f"\nquarto caractere: {nome[3]} ")
+print(f"\ntodos menos o primeiro: {nome[1:]}")
+print(f"\nos dois ultimos: {nome[-2:]}" )
+
+print("\n")
+
+
+
 
 
 
